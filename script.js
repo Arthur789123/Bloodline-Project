@@ -572,16 +572,7 @@ const minhasBloods = [
         Rarity: 0.4,
         Mode: 1
     },
-
-
-
-
-
-
 ]
-
-
-
 const tbodyBloods = document.getElementById('tbodyBloods')
 
 for (const bloodline of minhasBloods) {
@@ -599,4 +590,11 @@ for (const bloodline of minhasBloods) {
 
 `
 
+}
+
+const btns = document.querySelectorAll(".btn") 
+for (const index in btns) {
+    btns[index].addEventListener("click", function () {
+        alert(minhasBloods[index].Bloodline)
+    })
 }
