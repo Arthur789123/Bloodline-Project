@@ -421,60 +421,60 @@ const minhasBloods = [
         Mode: 1
     },
     {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
+        Icon: 'https://gamerempire.net/wp-content/uploads/2021/03/Bankai-Akuma-Bloodline-Icon-Shindo-Life-Roblox.jpg.webp',
+        Bloodline: 'Bankai-Akuma',
         Rank: 'B',
         Type: 'Eye Bloodline',
+        Rarity: 1.00,
+        Mode: 4
+    },
+    {
+        Icon: 'https://gamerempire.net/wp-content/uploads/2022/07/Ragnar-Bloodline-Icon-Shindo-Life-Roblox.png',
+        Bloodline: 'Ragnar',
+        Rank: 'B',
+        Type: 'Clan Bloodline',
+        Rarity: 0.5,
+        Mode: 1
+    },
+    {
+        Icon: 'https://gamerempire.net/wp-content/uploads/2022/08/Shiver-Ragnar-Bloodline-Icon-Shindo-Life-Roblox.png',
+        Bloodline: 'Shiver-Ragnar',
+        Rank: 'B',
+        Type: 'Clan Bloodline',
         Rarity: 0.4,
         Mode: 1
     },
     {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
+        Icon: 'https://gamerempire.net/wp-content/uploads/2022/10/Fume-Bloodline-Icon-Shindo-Life-Roblox.png',
+        Bloodline: 'Fume',
         Rank: 'B',
-        Type: 'Eye Bloodline',
-        Rarity: 0.4,
-        Mode: 1
+        Type: 'Elemental Bloodline',
+        Rarity: 2.86,
+        Mode: 0
     },
     {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
+        Icon: 'https://gamerempire.net/wp-content/uploads/2021/04/Renshiki-Bloodline-Icon-Shindo-Life-Roblox.jpg.webp',
+        Bloodline: 'Renshiki',
         Rank: 'B',
         Type: 'Eye Bloodline',
-        Rarity: 0.4,
-        Mode: 1
+        Rarity: 0.67,
+        Mode: 2
     },
     {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
+        Icon: 'https://gamerempire.net/wp-content/uploads/2022/06/Renshiki-Ruby-Bloodline-Icon-Shindo-Life-Roblox.jpg',
+        Bloodline: 'Renshiki-Ruby',
         Rank: 'B',
         Type: 'Eye Bloodline',
-        Rarity: 0.4,
-        Mode: 1
+        Rarity: 0.33,
+        Mode: 2
     },
     {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
+        Icon: 'https://gamerempire.net/wp-content/uploads/2021/08/Renshiki-Gold-Bloodline-Icon-Shindo-Life-Roblox.jpg',
+        Bloodline: 'Renshiki-Gold',
         Rank: 'B',
         Type: 'Eye Bloodline',
         Rarity: 0.4,
-        Mode: 1
-    },
-    {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
-        Rank: 'B',
-        Type: 'Eye Bloodline',
-        Rarity: 0.4,
-        Mode: 1
-    },
-    {
-        Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
-        Bloodline: 'Doku-Tengoku',
-        Rank: 'B',
-        Type: 'Eye Bloodline',
-        Rarity: 0.4,
-        Mode: 1
+        Mode: 2
     },
     {
         Icon: 'https://gamerempire.net/wp-content/uploads/2021/12/Doku-Tengoku-Bloodline-Icon-Shindo-Life-Roblox.jpg',
