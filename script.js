@@ -1,4 +1,4 @@
-const minhasBloods = [
+const todasBloods = [
     {
         Icon: 'https://gamerempire.net/wp-content/uploads/2023/08/RELL-Bloodline-Icon-Shindo-Life-Roblox.png',
         Bloodline: 'Rell',
@@ -573,9 +573,12 @@ const minhasBloods = [
         Mode: 1
     },
 ]
-const tbodyBloods = document.getElementById('tbodyBloods')
+const minhasBloods = []
 
-for (const bloodline of minhasBloods) {
+const tbodyBloods = document.getElementById('tbodyBloods')
+const tbodyMinhasBloods = document.getElementById('tbodyMinhasBloods')
+
+for (const bloodline of todasBloods) {
 
     tbodyBloods.innerHTML += `
     <tr> 
@@ -589,12 +592,28 @@ for (const bloodline of minhasBloods) {
     </tr>
 
 `
-
 }
 
-const btns = document.querySelectorAll(".btn") 
+const btns = document.querySelectorAll(".btn")
 for (const index in btns) {
     btns[index].addEventListener("click", function () {
-        alert(minhasBloods[index].Bloodline)
+        minhasBloods.push(todasBloods[index])
+        console.log(minhasBloods)
+
+        tbodyMinhasBloods.innerHTML = ''
+        for (const bloodline of minhasBloods) {
+
+            tbodyMinhasBloods.innerHTML += `
+            <tr> 
+                <td><img src="${bloodline.Icon}" alt="404 error"> </td>
+                <td>${bloodline.Bloodline} </td>
+                <td>${bloodline.Rank} </td>
+                <td>${bloodline.Type} </td>
+                <td>${bloodline.Rarity} </td>
+                <td>${bloodline.Mode} </td>
+            </tr>
+        
+        `
+        }
     })
 }
